@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false">
+
+    <!--<parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>-->
+
+    <parameter name="os" value="Mac"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="browserVersion" value="62.0"/>
+    <parameter name="url" value="https://commondeer.com/"/>
+
+
+    <test name = "Commander">
+        <classes>
+
+            <class name="com.commondeer.retailtest.HomePageTest"/>
+            <class name="com.commondeer.retailtest.CreateAccountTest"/>
+            <class name="com.commondeer.retailtest.AllProductPageTest"/>
+            <class name="com.commondeer.retailtest.ShoppingCardTest"/>
+            <class name="com.commondeer.retailtest.LoginTest"/>
+            <class name="com.commondeer.retailtest.CustomerInformationPageTest"/>
+            <class name="com.commondeer.retailtest.FootterPageTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>

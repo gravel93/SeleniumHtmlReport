@@ -27,6 +27,8 @@ public class ShoppingCard extends AllProductPage {
 
 
 
+
+
     public void checkOutFunc() throws InterruptedException {
         selectItemToshoppingList();
         WebDriverWait wait = new WebDriverWait(driver,10);

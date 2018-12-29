@@ -1,5 +1,6 @@
 package com.commondeer.retail;
 
+import main.java.ApplicationPageBase;
 import main.java.ForEveryClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -13,7 +14,7 @@ import org.testng.annotations.Test;
 import javax.swing.*;
 import javax.xml.xpath.XPath;
 
-public class HomePage extends ForEveryClass {
+public class HomePage extends ApplicationPageBase {
 
 
 

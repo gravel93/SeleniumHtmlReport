@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="21" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryC:\Users\agaev\Desktop\commondeer.com\toExecute\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Test" duration-ms="104719" started-at="2018-12-28T08:13:22Z" finished-at="2018-12-28T08:15:07Z">
+    <groups>
+    </groups>
+    <test name="Commander" duration-ms="104719" started-at="2018-12-28T08:13:22Z" finished-at="2018-12-28T08:15:07Z">
+      <class name="com.commondeer.retailtest.CustomerInformationPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.CustomerInformationPageTest@4f933fd1]" name="setUp" is-config="true" duration-ms="5556" started-at="2018-12-28T03:13:22Z" finished-at="2018-12-28T03:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.CustomerInformationPageTest@4f933fd1]" name="startExtent" is-config="true" duration-ms="15" started-at="2018-12-28T03:13:28Z" finished-at="2018-12-28T03:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.CustomerInformationPageTest.customerFillInfoPageTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.CustomerInformationPageTest@4f933fd1]" name="initializationOfElements" is-config="true" duration-ms="56" started-at="2018-12-28T03:13:28Z" finished-at="2018-12-28T03:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="customerFillInfoPageTest()[pri:0, instance:com.commondeer.retailtest.CustomerInformationPageTest@4f933fd1]" name="customerFillInfoPageTest" duration-ms="12363" started-at="2018-12-28T03:13:28Z" finished-at="2018-12-28T03:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerFillInfoPageTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.CustomerInformationPageTest@4f933fd1]" name="afterEachTestMethod" is-config="true" duration-ms="532" started-at="2018-12-28T03:13:40Z" finished-at="2018-12-28T03:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerFillInfoPageTest status=SUCCESS method=CustomerInformationPageTest.customerFillInfoPageTest()[pri:0, instance:com.commondeer.retailtest.CustomerInformationPageTest@4f933fd1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.CustomerInformationPageTest@4f933fd1]" name="closeOut" is-config="true" duration-ms="3145" started-at="2018-12-28T03:13:41Z" finished-at="2018-12-28T03:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+      </class> <!-- com.commondeer.retailtest.CustomerInformationPageTest -->
+      <class name="com.commondeer.retailtest.CreateAccountTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.CreateAccountTest@4520ebad]" name="setUp" is-config="true" duration-ms="4571" started-at="2018-12-28T03:14:11Z" finished-at="2018-12-28T03:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.CreateAccountTest@4520ebad]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-12-28T03:14:15Z" finished-at="2018-12-28T03:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.CreateAccountTest.createNewAccountTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.CreateAccountTest@4520ebad]" name="initializationOfElements" is-config="true" duration-ms="5" started-at="2018-12-28T03:14:15Z" finished-at="2018-12-28T03:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="createNewAccountTest()[pri:3, instance:com.commondeer.retailtest.CreateAccountTest@4520ebad]" name="createNewAccountTest" duration-ms="3504" started-at="2018-12-28T03:14:15Z" finished-at="2018-12-28T03:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.CreateAccountTest@4520ebad]" name="afterEachTestMethod" is-config="true" duration-ms="34" started-at="2018-12-28T03:14:19Z" finished-at="2018-12-28T03:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccountTest status=SUCCESS method=CreateAccountTest.createNewAccountTest()[pri:3, instance:com.commondeer.retailtest.CreateAccountTest@4520ebad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.CreateAccountTest@4520ebad]" name="closeOut" is-config="true" duration-ms="2939" started-at="2018-12-28T03:14:19Z" finished-at="2018-12-28T03:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+      </class> <!-- com.commondeer.retailtest.CreateAccountTest -->
+      <class name="com.commondeer.retailtest.FootterPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.FootterPageTest@548a9f61]" name="setUp" is-config="true" duration-ms="4693" started-at="2018-12-28T03:13:44Z" finished-at="2018-12-28T03:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.FootterPageTest@548a9f61]" name="initializationOfElements" is-config="true" duration-ms="1" started-at="2018-12-28T03:13:49Z" finished-at="2018-12-28T03:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.FootterPageTest@548a9f61]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-12-28T03:13:49Z" finished-at="2018-12-28T03:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.FootterPageTest.countLiTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="countLiTest()[pri:0, instance:com.commondeer.retailtest.FootterPageTest@548a9f61]" name="countLiTest" duration-ms="135" started-at="2018-12-28T03:13:49Z" finished-at="2018-12-28T03:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countLiTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.FootterPageTest@548a9f61]" name="afterEachTestMethod" is-config="true" duration-ms="53" started-at="2018-12-28T03:13:49Z" finished-at="2018-12-28T03:13:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=countLiTest status=SUCCESS method=FootterPageTest.countLiTest()[pri:0, instance:com.commondeer.retailtest.FootterPageTest@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.FootterPageTest@548a9f61]" name="closeOut" is-config="true" duration-ms="2939" started-at="2018-12-28T03:13:49Z" finished-at="2018-12-28T03:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+      </class> <!-- com.commondeer.retailtest.FootterPageTest -->
+      <class name="com.commondeer.retailtest.AllProductPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="setUp" is-config="true" duration-ms="4637" started-at="2018-12-28T03:14:22Z" finished-at="2018-12-28T03:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="initializationOfElements" is-config="true" duration-ms="1" started-at="2018-12-28T03:14:27Z" finished-at="2018-12-28T03:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-12-28T03:14:27Z" finished-at="2018-12-28T03:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.AllProductPageTest.sortByTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="sortByTest()[pri:4, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="sortByTest" duration-ms="3041" started-at="2018-12-28T03:14:27Z" finished-at="2018-12-28T03:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="afterEachTestMethod" is-config="true" duration-ms="40" started-at="2018-12-28T03:14:30Z" finished-at="2018-12-28T03:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortByTest status=SUCCESS method=AllProductPageTest.sortByTest()[pri:4, instance:com.commondeer.retailtest.AllProductPageTest@5419f379] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="closeOut" is-config="true" duration-ms="2952" started-at="2018-12-28T03:14:30Z" finished-at="2018-12-28T03:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="setUp" is-config="true" duration-ms="4651" started-at="2018-12-28T03:14:33Z" finished-at="2018-12-28T03:14:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-12-28T03:14:37Z" finished-at="2018-12-28T03:14:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.AllProductPageTest.selectItemToshoppingListTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="initializationOfElements" is-config="true" duration-ms="1" started-at="2018-12-28T03:14:37Z" finished-at="2018-12-28T03:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="selectItemToshoppingListTest()[pri:5, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="selectItemToshoppingListTest" duration-ms="2902" started-at="2018-12-28T03:14:37Z" finished-at="2018-12-28T03:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItemToshoppingListTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="afterEachTestMethod" is-config="true" duration-ms="26" started-at="2018-12-28T03:14:40Z" finished-at="2018-12-28T03:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectItemToshoppingListTest status=SUCCESS method=AllProductPageTest.selectItemToshoppingListTest()[pri:5, instance:com.commondeer.retailtest.AllProductPageTest@5419f379] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.AllProductPageTest@5419f379]" name="closeOut" is-config="true" duration-ms="2988" started-at="2018-12-28T03:14:40Z" finished-at="2018-12-28T03:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+      </class> <!-- com.commondeer.retailtest.AllProductPageTest -->
+      <class name="com.commondeer.retailtest.ShoppingCardTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.ShoppingCardTest@7dc7cbad]" name="setUp" is-config="true" duration-ms="4698" started-at="2018-12-28T03:14:43Z" finished-at="2018-12-28T03:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.ShoppingCardTest@7dc7cbad]" name="initializationOfElements" is-config="true" duration-ms="2" started-at="2018-12-28T03:14:48Z" finished-at="2018-12-28T03:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.ShoppingCardTest@7dc7cbad]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-12-28T03:14:48Z" finished-at="2018-12-28T03:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.ShoppingCardTest.checkOutFuncTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="checkOutFuncTest()[pri:6, instance:com.commondeer.retailtest.ShoppingCardTest@7dc7cbad]" name="checkOutFuncTest" duration-ms="6287" started-at="2018-12-28T03:14:48Z" finished-at="2018-12-28T03:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutFuncTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.ShoppingCardTest@7dc7cbad]" name="afterEachTestMethod" is-config="true" duration-ms="21" started-at="2018-12-28T03:14:54Z" finished-at="2018-12-28T03:14:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOutFuncTest status=SUCCESS method=ShoppingCardTest.checkOutFuncTest()[pri:6, instance:com.commondeer.retailtest.ShoppingCardTest@7dc7cbad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.ShoppingCardTest@7dc7cbad]" name="closeOut" is-config="true" duration-ms="3628" started-at="2018-12-28T03:14:54Z" finished-at="2018-12-28T03:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+      </class> <!-- com.commondeer.retailtest.ShoppingCardTest -->
+      <class name="com.commondeer.retailtest.HomePageTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="extentSetup" is-config="true" duration-ms="111" started-at="2018-12-28T03:13:22Z" finished-at="2018-12-28T03:13:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4dafba3e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryC:\Users\agaev\Desktop\commondeer.com\toExecute\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="setUp" is-config="true" duration-ms="4822" started-at="2018-12-28T03:13:52Z" finished-at="2018-12-28T03:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-12-28T03:13:57Z" finished-at="2018-12-28T03:13:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.HomePageTest.searchTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="initializationOfElements" is-config="true" duration-ms="0" started-at="2018-12-28T03:13:57Z" finished-at="2018-12-28T03:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="searchTest()[pri:1, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="searchTest" duration-ms="2239" started-at="2018-12-28T03:13:57Z" finished-at="2018-12-28T03:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="afterEachTestMethod" is-config="true" duration-ms="44" started-at="2018-12-28T03:13:59Z" finished-at="2018-12-28T03:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest()[pri:1, instance:com.commondeer.retailtest.HomePageTest@58651fd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="closeOut" is-config="true" duration-ms="3011" started-at="2018-12-28T03:13:59Z" finished-at="2018-12-28T03:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="setUp" is-config="true" duration-ms="4913" started-at="2018-12-28T03:14:02Z" finished-at="2018-12-28T03:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-12-28T03:14:07Z" finished-at="2018-12-28T03:14:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.HomePageTest.dropDownSearchFuncTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="initializationOfElements" is-config="true" duration-ms="2" started-at="2018-12-28T03:14:07Z" finished-at="2018-12-28T03:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="dropDownSearchFuncTest()[pri:2, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="dropDownSearchFuncTest" duration-ms="1062" started-at="2018-12-28T03:14:07Z" finished-at="2018-12-28T03:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownSearchFuncTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="afterEachTestMethod" is-config="true" duration-ms="31" started-at="2018-12-28T03:14:08Z" finished-at="2018-12-28T03:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDownSearchFuncTest status=SUCCESS method=HomePageTest.dropDownSearchFuncTest()[pri:2, instance:com.commondeer.retailtest.HomePageTest@58651fd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="closeOut" is-config="true" duration-ms="2911" started-at="2018-12-28T03:14:08Z" finished-at="2018-12-28T03:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.commondeer.retailtest.HomePageTest@58651fd0]" name="generateReport" is-config="true" duration-ms="51" started-at="2018-12-28T03:15:07Z" finished-at="2018-12-28T03:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.commondeer.retailtest.HomePageTest -->
+      <class name="com.commondeer.retailtest.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.commondeer.retailtest.LoginTest@d2cc05a]" name="setUp" is-config="true" duration-ms="4568" started-at="2018-12-28T03:14:58Z" finished-at="2018-12-28T03:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://commondeer.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:com.commondeer.retailtest.LoginTest@d2cc05a]" name="initializationOfElements" is-config="true" duration-ms="1" started-at="2018-12-28T03:15:02Z" finished-at="2018-12-28T03:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.commondeer.retailtest.LoginTest@d2cc05a]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-12-28T03:15:02Z" finished-at="2018-12-28T03:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.commondeer.retailtest.LoginTest.loginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="loginTest()[pri:7, instance:com.commondeer.retailtest.LoginTest@d2cc05a]" name="loginTest" duration-ms="1755" started-at="2018-12-28T03:15:02Z" finished-at="2018-12-28T03:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.commondeer.retailtest.LoginTest@d2cc05a]" name="afterEachTestMethod" is-config="true" duration-ms="20" started-at="2018-12-28T03:15:04Z" finished-at="2018-12-28T03:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:7, instance:com.commondeer.retailtest.LoginTest@d2cc05a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="closeOut()[pri:0, instance:com.commondeer.retailtest.LoginTest@d2cc05a]" name="closeOut" is-config="true" duration-ms="2887" started-at="2018-12-28T03:15:04Z" finished-at="2018-12-28T03:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeOut -->
+      </class> <!-- com.commondeer.retailtest.LoginTest -->
+    </test> <!-- Commander -->
+  </suite> <!-- Automation Test -->
+</testng-results>

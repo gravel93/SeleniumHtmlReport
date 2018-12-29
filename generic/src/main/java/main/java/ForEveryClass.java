@@ -64,6 +64,10 @@ public class ForEveryClass {
         }
         ExtentTestManager.endTest();
         extent.flush();
+        if (result.getStatus() == ITestResult.FAILURE) {
+            captureScreenshot(driver, result.getName());
+        }
+        driver.quit();
     }
     @AfterSuite
     public void generateReport() {
@@ -113,26 +117,40 @@ public class ForEveryClass {
 
         @AfterMethod
         public void closeOut() throws InterruptedException {
-            driver.manage().deleteAllCookies();
-            Thread.sleep(2000);
+//            driver.manage().deleteAllCookies();
+//            driver.close();
             driver.quit();
         }
 
-//    public static void captureScreenshot(WebDriver driver, String screenshotName){
-//
-//        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
-//        Date date = new Date();
-//        df.format(date);
-//
-//        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-//        try {
-//            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png"));
-//            System.out.println("Screenshot captured");
-//        } catch (Exception e) {
-//            System.out.println("Exception while taking screenshot "+e.getMessage());;
-//        }
-//
-//    }
+    public static void captureScreenshot(WebDriver driver, String screenshotName){
+
+        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+        Date date = new Date();
+        String screenshootDate = df.format(date);
+
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName.concat(".png")));
+            System.out.println("Screenshot captured");
+        } catch (Exception e) {
+            System.out.println("Exception while taking screenshot "+e.getMessage());;
+        }
+
+    }
+
+    public static WebDriver  getDriver()
+    {
+        return driver;
+    }
+    /**
+     * This method returns the url.
+     *
+     * @return Returns the string.
+     */
+    public static String getUrl()
+    {
+        return driver.getCurrentUrl();
+    }
 
     }
 

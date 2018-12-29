@@ -9,15 +9,15 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 
 public class MyDataReader {
-	
+
 	protected XSSFSheet ExcelWSheet;
 	protected XSSFWorkbook ExcelWBook;
 	protected XSSFCell Cell;
 	protected XSSFRow Row;
 
-	
+
 	public void setExcelFile(String Path) throws Exception {
-		 
+
 			try {
 			FileInputStream ExcelFile = new FileInputStream(Path);
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
@@ -27,7 +27,7 @@ public class MyDataReader {
 			}
 
 	}// end of setexcelfile
-	
+
 	@SuppressWarnings("null")
 	public String[][] getExcelSheetData(String sheetname) throws Exception {
 		String[][] data = null;
@@ -60,7 +60,7 @@ public class MyDataReader {
 
 				}
 			}
-			
+
 			return mydata;
 		} //// end of getexcel sheet data
 

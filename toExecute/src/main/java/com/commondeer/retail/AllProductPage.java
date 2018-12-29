@@ -26,6 +26,9 @@ public class AllProductPage extends HomePage{
     @FindBy(css = "button#AddToCart")
     private WebElement addToCard;
 
+    @FindBy(xpath = "//a[contains(text(),\"Burlington Camel's Hump Landscape Badge Sticker\")]")
+    private WebElement titleTextofItemBur;
+
 
     public void sortBy(){
         dropDownSearchFunc();
@@ -38,6 +41,11 @@ public class AllProductPage extends HomePage{
         Assert.assertEquals(NOAMG,getTitle);
         System.out.println("h1 Title matched");
 
+    }
+
+    public String getTitleText(){
+        String actualText = getText(titleTextofItemBur,"titleTextofItemBur");
+        return actualText;
     }
 
     public void selectItemToshoppingList(){

@@ -19,10 +19,10 @@ public class ExtentManager {
             Reporter.log("Extent Report Directory"+ resultDirectory, true);
             extent.addSystemInfo("Host Name", "Tester").addSystemInfo("Environment","QA")
                     .addSystemInfo("User Name", "Team_Three");
-//            extent.loadConfig(new File(System.getProperty("user.dir")+ "/report-config.xml"));
+            extent.loadConfig(new File(System.getProperty("user.dir")+ "/report-config.xml"));
         }
         return extent;
-    }
+}
 
     public static void setOutputDirectory(ITestContext context){
         ExtentManager.context = context;

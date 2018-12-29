@@ -20,6 +20,7 @@ public class ShoppingCardTest extends ShoppingCard {
     public void checkOutFuncTest() throws InterruptedException {
 
         objOfShoppingCard.checkOutFunc();
+
     }
 
 

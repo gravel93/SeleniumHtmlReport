@@ -28,6 +28,19 @@ public class CustomerInformationPage extends ShoppingCard {
     @FindBy (xpath = "//button[@class='step__footer__continue-btn btn ']")
     private WebElement submitBtn;
 
+    @FindBy(css = "p#error-for-reduction_code")
+    public  WebElement promoCode;
+
+    @FindBy(css = "#checkout_reduction_code")
+    public WebElement enterPromoCode;
+
+    @FindBy(xpath = "//button[@class='field__input-btn btn']")
+    public WebElement btnApply;
+
+    @FindBy(css = "#error-for-reduction_code")
+    public WebElement promoerrorMessage;
+
+
 
     public void customerFillInfoPage () throws InterruptedException {
         checkOutFunc();
@@ -42,8 +55,19 @@ public class CustomerInformationPage extends ShoppingCard {
         phoneNumber.sendKeys("1234567897");
         submitBtn.click();
 
-        
+    }
 
+    public CustomerInformationPage invalidPromoCode(String promoCode){
+        sendKeys(enterPromoCode,"enterPromoCode",promoCode);
+        click(btnApply,"btnApply");
+        return new CustomerInformationPage();
+    }
+
+    public String getErroMessage(){
+
+        String actualText = getText(promoerrorMessage,"errorMessage");
+
+        return actualText;
     }
 
 }

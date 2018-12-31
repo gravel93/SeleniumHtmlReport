@@ -36,10 +36,7 @@ public class AllProductPage extends HomePage{
         selectSortAsc.click();
         int numOfPic =  imgtable.size();
         System.out.println(numOfPic);
-        String NOAMG = "NEWLY ONLINE AMERICAN MADE GOODS";
-        String getTitle = h1NewlyAmericanMade.getText();
-        Assert.assertEquals(NOAMG,getTitle);
-        System.out.println("h1 Title matched");
+
 
     }
 
@@ -47,6 +44,11 @@ public class AllProductPage extends HomePage{
         String actualText = getText(titleTextofItemBur,"titleTextofItemBur");
         return actualText;
     }
+    public String geTh1NewlyAmericanMade(){
+        String actualText = getText(h1NewlyAmericanMade,"h1NewlyAmericanMade");
+        return actualText;
+    }
+
 
     public void selectItemToshoppingList(){
         dropDownSearchFunc();

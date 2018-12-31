@@ -30,12 +30,10 @@ public class CreateAccount extends Login {
         lastName.sendKeys("JanMaya");
         email.sendKeys(loginEmail);
         password.sendKeys(loginPassword);
-        String title =  getTitle.getText();
-        Assert.assertEquals("CREATE ACCOUNT",title);
-        System.out.println("Title matched");
         sumbitbtn.click();
 
 
     }
+
 
 }

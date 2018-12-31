@@ -1,12 +1,11 @@
 package main.java;
 
-import main.java.ForEveryClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import reporting.TestLogger;
 
-import javax.swing.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -54,6 +53,15 @@ public  class ApplicationPageBase extends ForEveryClass {
         Actions actions = new Actions(driver);
         TestLogger.log("HoveringOver ON " + WebElementName);
         actions.moveToElement(webElement).build().perform();
+    }
+
+
+
+    public static void assertExpection(String function, String WebElementName, String expected){
+            String ExpectedText = expected;
+            TestLogger.log("Getting text from " + WebElementName);
+            Assert.assertEquals(expected,function);
+            System.out.println("Text Matched");
     }
 
 

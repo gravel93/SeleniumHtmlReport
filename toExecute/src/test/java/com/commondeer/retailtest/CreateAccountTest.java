@@ -2,6 +2,7 @@ package com.commondeer.retailtest;
 
 import com.commondeer.retail.CreateAccount;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

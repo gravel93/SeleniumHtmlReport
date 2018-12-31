@@ -19,7 +19,9 @@ public class AllProductPageTest extends AllProductPage {
     @Test(priority = 4)
 
     public void sortByTest(){
+        String NOAMG = "NEWLY ONLINE AMERICAN MADE GOODS";
         objAllProductPage.sortBy();
+        assertExpection(objAllProductPage.geTh1NewlyAmericanMade(),"h1NewlyAmericanMade",NOAMG);
     }
 
 
@@ -29,9 +31,8 @@ public class AllProductPageTest extends AllProductPage {
 
         objAllProductPage.selectItemToshoppingList();
         String expectText = "Burlington Camel's Hump Landscape Badge Sticker";
-        String actualText = objAllProductPage.getTitleText();
-        Assert.assertEquals(expectText,actualText);
-        System.out.println("Title matched");
+        assertExpection(objAllProductPage.getTitleText(),"titleTextofItemBur",expectText);
+
     }
 
 

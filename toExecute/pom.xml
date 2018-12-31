@@ -13,12 +13,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.webautomation.nov18</groupId>
-            <artifactId>generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>com.gravel</groupId>
             <artifactId>generic</artifactId>
             <version>1.0-SNAPSHOT</version>

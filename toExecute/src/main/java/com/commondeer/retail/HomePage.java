@@ -59,9 +59,12 @@ public class HomePage extends ApplicationPageBase {
 
     public void dropDownSearchFunc(){
 
-        Actions action = new Actions(driver);
-        action.moveToElement(dropDownSearch).build().perform();
-        hoverOverOnShopTheGoods.click();
+//        Actions action = new Actions(driver);
+//        action.moveToElement(dropDownSearch).build().perform();
+//        hoverOverOnShopTheGoods.click();
+        hoverOver(dropDownSearch,"dropDownSearch");
+        click(dropDownSearch,"dropDownSearch");
+
     }
 
 

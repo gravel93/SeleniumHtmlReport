@@ -130,7 +130,7 @@ public class ForEveryClass {
 
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName.concat(".png")));
+            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/ "+screenshotName.concat(".png")));
             System.out.println("Screenshot captured");
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot "+e.getMessage());;

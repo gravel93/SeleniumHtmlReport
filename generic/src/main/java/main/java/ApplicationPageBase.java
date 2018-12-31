@@ -3,8 +3,10 @@ package main.java;
 import main.java.ForEveryClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import reporting.TestLogger;
 
+import javax.swing.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -47,7 +49,16 @@ public  class ApplicationPageBase extends ForEveryClass {
             webElement.click();
             TestLogger.log("Clicked " + webElementName);
         }
-        public static Properties loadProperties() throws IOException {
+
+    public static void hoverOver( WebElement webElement,String WebElementName){
+        Actions actions = new Actions(driver);
+        TestLogger.log("HoveringOver ON " + WebElementName);
+        actions.moveToElement(webElement).build().perform();
+    }
+
+
+
+    public static Properties loadProperties() throws IOException {
             Properties prop = new Properties();
             File filepath = new File(System.getProperty("user.dir") +  "/src/test/resources/secret.properties");
             InputStream ism = new FileInputStream(filepath.getAbsoluteFile());
@@ -56,5 +67,9 @@ public  class ApplicationPageBase extends ForEveryClass {
             return prop;
         }
 
-    }
+
+
+
+
+}
 

@@ -28,7 +28,7 @@ public class AllProductPageTest extends AllProductPage {
     public void selectItemToshoppingListTest(){
 
         objAllProductPage.selectItemToshoppingList();
-        String expectText = "Burlington Camel's Hump Landscape  Sticker";
+        String expectText = "Burlington Camel's Hump Landscape Badge Sticker";
         String actualText = objAllProductPage.getTitleText();
         Assert.assertEquals(expectText,actualText);
         System.out.println("Title matched");

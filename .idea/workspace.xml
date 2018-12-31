@@ -3,33 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64a29ce1-9b36-413b-9fd8-64966e5de2f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/.credentials/sheets-googleapis/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toExecute/src/test/resources/executable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/src/test/resources/executable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/ShoppingCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/ShoppingCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.AllProductPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.AllProductPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.CreateAccountTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.CreateAccountTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.CustomerInformationPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.CustomerInformationPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.FootterPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.FootterPageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.GoogleSheetForLogInTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.GoogleSheetForLogInTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.HomePageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.LoginTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.ShoppingCardTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.ShoppingCardTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/test-classes/executable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/test-classes/executable.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,9 +107,9 @@
           <entry key="2018-12" value="1" />
           <entry key="class" value="2" />
           <entry key="html" value="8" />
-          <entry key="java" value="97" />
+          <entry key="java" value="102" />
           <entry key="json" value="5" />
-          <entry key="png" value="5" />
+          <entry key="png" value="6" />
           <entry key="properties" value="3" />
           <entry key="xml" value="7" />
           <entry key="yml" value="1" />
@@ -145,8 +119,8 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="HTML" value="8" />
-          <entry key="Image" value="8" />
-          <entry key="JAVA" value="97" />
+          <entry key="Image" value="9" />
+          <entry key="JAVA" value="102" />
           <entry key="JSON" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
@@ -179,17 +153,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/ShoppingCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+            <state relative-caret-position="392">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/ApplicationPageBase.java">
+        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/AllProductPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+            <state relative-caret-position="358">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CustomerInformationPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,26 +186,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CreateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
+            <state relative-caret-position="513">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/executable.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="288">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="16" selection-end-line="20" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/FootterPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+            <state relative-caret-position="64">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,8 +225,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/ForEveryClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+            <state relative-caret-position="65">
+              <caret line="119" column="49" lean-forward="true" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,21 +248,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/ShoppingCardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toExecute/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/toExecute/screenshots/ dropDownSearchFuncTest.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -332,9 +320,9 @@
         <option value="$PROJECT_DIR$/generic/src/main/java/main/java/ApplicationPageBase.java" />
         <option value="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CreateAccount.java" />
         <option value="$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/CreateAccountTest.java" />
+        <option value="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/ShoppingCard.java" />
         <option value="$PROJECT_DIR$/toExecute/pom.xml" />
         <option value="$PROJECT_DIR$/toExecute/src/test/resources/executable.xml" />
-        <option value="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/ShoppingCard.java" />
       </list>
     </option>
   </component>
@@ -386,7 +374,37 @@
               <item name="commondeer.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="commondeer.com" type="462c0819:PsiDirectoryNode" />
               <item name="toExecute" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commondeer.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commondeer.com" type="462c0819:PsiDirectoryNode" />
+              <item name="toExecute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commondeer.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commondeer.com" type="462c0819:PsiDirectoryNode" />
+              <item name="toExecute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commondeer.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commondeer.com" type="462c0819:PsiDirectoryNode" />
+              <item name="toExecute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commondeer.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commondeer.com" type="462c0819:PsiDirectoryNode" />
+              <item name="toExecute" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="retail" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,7 +414,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/InteligProjects/gravel/toExecute/src/main/java/CreateAccount.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546278603179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546279352684" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/generic/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -566,8 +584,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -581,7 +600,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
@@ -627,7 +646,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ForEveryClass.java" />
     <entry file="file://$PROJECT_DIR$/generic/driver/chromedriver.exe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -690,25 +708,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/FootterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/PaymentMethodTest.java" />
     <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/PaymentMethod.java" />
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CustomerInformationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/toExecute/screenshots/selectItemToshoppingListTest (12.29.2018-11" />
     <entry file="file://$PROJECT_DIR$/toExecute/screenshots/selectItemToshoppingListTest (12.29.2018-12" />
     <entry file="file://$PROJECT_DIR$/toExecute/screenshots/error.png" />
@@ -804,16 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/client_secret.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -828,27 +819,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/AllProductPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/ApplicationPageBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CreateAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -858,6 +832,23 @@
           <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toExecute/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toExecute/screenshots/ dropDownSearchFuncTest.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/CreateAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -872,39 +863,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/ForEveryClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="154" column="5" selection-start-line="154" selection-start-column="5" selection-end-line="154" selection-end-column="5" />
+        <state relative-caret-position="65">
+          <caret line="119" column="49" lean-forward="true" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/pom.xml">
+    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="513">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/executable.xml">
+    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/AllProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="358">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CustomerInformationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/FootterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/ShoppingCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="392">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html">
+    <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/executable.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+        <state relative-caret-position="288">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="16" selection-end-line="20" selection-end-column="76" />
         </state>
       </provider>
     </entry>

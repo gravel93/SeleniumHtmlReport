@@ -3,6 +3,8 @@ package main.java;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import reporting.TestLogger;
 
@@ -27,6 +29,14 @@ public  class ApplicationPageBase extends ForEveryClass {
             boolean en = web.isEnabled();
             return en;
         }
+
+        public static boolean isDisplayed(WebElement web,String webName){
+            boolean isDis = web.isDisplayed();
+            TestLogger.log("Checking element " + webName);
+            System.out.println("Logo is verified");
+            return isDis;
+        }
+
         public static void sendKeys(WebElement webElement, String webElementName, String keys){
             webElement.clear();
             TestLogger.log("Sending " + keys + " to " + webElementName);
@@ -74,6 +84,13 @@ public  class ApplicationPageBase extends ForEveryClass {
             ism.close();
             return prop;
         }
+
+
+    public static void ExplicitWait(WebDriver driver,WebElement webElement,int howMuchSecond){
+        WebDriverWait wait = new WebDriverWait(driver,howMuchSecond);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(webElement));
+        element.click();
+    }
 
 
 

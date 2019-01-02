@@ -17,13 +17,13 @@
         <classes>
 
             <class name="com.commondeer.retailtest.HomePageTest"/>
-            <class name="com.commondeer.retailtest.CreateAccountTest"/>
-            <class name="com.commondeer.retailtest.AllProductPageTest"/>
-            <class name="com.commondeer.retailtest.ShoppingCardTest"/>
-            <class name="com.commondeer.retailtest.LoginTest"/>
-            <class name="com.commondeer.retailtest.CustomerInformationPageTest"/>
-            <class name="com.commondeer.retailtest.FootterPageTest"/>
-            <class name="com.commondeer.retailtest.GoogleSheetForLogInTest"/>
+            <!--<class name="com.commondeer.retailtest.CreateAccountTest"/>-->
+            <!--<class name="com.commondeer.retailtest.AllProductPageTest"/>-->
+            <!--<class name="com.commondeer.retailtest.ShoppingCardTest"/>-->
+            <!--<class name="com.commondeer.retailtest.LoginTest"/>-->
+            <!--<class name="com.commondeer.retailtest.CustomerInformationPageTest"/>-->
+            <!--<class name="com.commondeer.retailtest.FootterPageTest"/>-->
+            <!--<class name="com.commondeer.retailtest.GoogleSheetForLogInTest"/>-->
 
         </classes>
 

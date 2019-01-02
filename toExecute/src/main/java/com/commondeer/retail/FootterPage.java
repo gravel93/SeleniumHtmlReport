@@ -23,8 +23,6 @@ public class FootterPage extends ApplicationPageBase {
             System.out.println(abc);
             int countLinksinFotter = links.size();
             System.out.println(countLinksinFotter);
-            Assert.assertEquals(19,countLinksinFotter);
-            System.out.println("Number of links matched to requirements");
 
         }
     }

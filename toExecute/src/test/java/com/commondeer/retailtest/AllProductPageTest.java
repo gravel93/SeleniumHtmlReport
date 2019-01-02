@@ -14,9 +14,14 @@ public class AllProductPageTest extends AllProductPage {
 
         objAllProductPage = PageFactory.initElements(driver, AllProductPage.class);
     }
+//
+//    @Test(priority = 1)
+//    public void SelectProductWith20Test(){
+//        objAllProductPage.SelectProductWith20();
+//    }
 
 
-    @Test(priority = 4)
+    @Test(priority = 2)
 
     public void sortByTest(){
         String NOAMG = "NEWLY ONLINE AMERICAN MADE GOODS";
@@ -25,7 +30,7 @@ public class AllProductPageTest extends AllProductPage {
     }
 
 
-    @Test(priority = 5)
+    @Test(priority = 3)
 
     public void selectItemToshoppingListTest(){
 
@@ -35,6 +40,16 @@ public class AllProductPageTest extends AllProductPage {
 
     }
 
+
+    @Test(priority = 4)
+    public void  changeViewTest(){
+        objAllProductPage.changeView();
+    }
+
+    @Test(priority = 5)
+    public void changePageTest(){
+        objAllProductPage.changePage();
+    }
 
 
 

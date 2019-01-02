@@ -34,6 +34,7 @@ public class ShoppingCard extends AllProductPage {
         WebDriverWait wait = new WebDriverWait(driver,10);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(cardBtn));
         element.click();
+//        ExplicitWait(driver,cardBtn,5);
         adjuctItem.click();
         updateCard.click();
         String total = totalPrice.getText();

@@ -1,12 +1,16 @@
 package com.commondeer.retail;
 
+import org.apache.commons.collections4.list.TreeList;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.TreeSet;
 
 public class AllProductPage extends HomePage{
 
@@ -31,6 +35,29 @@ public class AllProductPage extends HomePage{
     @FindBy(xpath = "//a[contains(text(),\"Burlington Camel's Hump Landscape Badge Sticker\")]")
     private WebElement titleTextofItemBur;
 
+    @FindBy(xpath = "//span[@class='icon icon-list']")
+    private WebElement changeViewOfList;
+
+    @FindBy(xpath = "//a[@href='/collections/all-products-1?page=2'][contains(text(),'2')]")
+    private WebElement changepage;
+
+    @FindBy(css = "span.money")
+    private  List<WebElement> itemPrice;
+
+
+//    public void SelectProductWith20(){
+//        String items = " ";
+//
+//
+////        ArrayList arrayList = new ArrayList();
+//        for (int i = 0; i <itemPrice.size() ; i++) {
+//              items +=  itemPrice.get(i).getText();
+//        }
+//        String[] replaceAndToArray = items.replace("$"," ").split(" ");
+//
+//    }
+
+
 
     public void sortBy(){
         dropDownSearchFunc();
@@ -39,6 +66,18 @@ public class AllProductPage extends HomePage{
         int numOfPic =  imgtable.size();
         System.out.println(numOfPic);
 
+
+    }
+
+    public void changeView(){
+        dropDownSearchFunc();
+        click(changeViewOfList,"changeViewOfList");
+
+    }
+
+    public void changePage(){
+        dropDownSearchFunc();
+        click(changepage,"ChangePAge");
 
     }
 
@@ -55,9 +94,8 @@ public class AllProductPage extends HomePage{
     public void selectItemToshoppingList(){
         dropDownSearchFunc();
         selectSortAsc.click();
-        WebDriverWait wait = new WebDriverWait(driver,10);
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(BurlingtonItem));
-        element.click();
+        BurlingtonItem.click();
+        ExplicitWait(driver,addToCard,5);
         addToCard.click();
 
     }

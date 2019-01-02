@@ -60,20 +60,7 @@ public class Login extends ApplicationPageBase {
         return actualText;
     }
 
-    public void loginfunc() {
 
-//        Login.click();
-//        String Ltitle = logInTitle.getText();
-//        Assert.assertEquals("LOGIN",Ltitle);
-//        System.out.println("Title Matched");
-//        emailBox.sendKeys(loginEmail);
-//        passwordBox.sendKeys(loginEmail);
-//        logInBtn.click();
-////        cookies.click();
-////        loginSumbitBtn.click();
-
-
-    }
 
 
 }

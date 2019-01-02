@@ -1,5 +1,6 @@
 package com.commondeer.retail;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import main.java.ApplicationPageBase;
 import main.java.ForEveryClass;
 import org.openqa.selenium.By;
@@ -8,11 +9,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import javax.swing.*;
 import javax.xml.xpath.XPath;
+import java.io.IOException;
+import java.nio.channels.Selector;
+import java.util.List;
+
+import static javafx.beans.binding.Bindings.select;
 
 public class HomePage extends ApplicationPageBase {
 
@@ -44,39 +51,103 @@ public class HomePage extends ApplicationPageBase {
 
     private WebElement videoClick;
 
+    @FindBy(xpath = "//div[@class='js-flickity flickity-enabled is-draggable']//button[2]")
+    private  WebElement changeSlidePic;
+
+    @FindBy(xpath = "//a[text()='Newly Online'][1]")
+    private  WebElement newlyOnline;
+
+    @FindBy(xpath = "//*[@class='nav-bar']/ul/li/a[text()='Search']")
+    private WebElement searchPageElement;
+
+    @FindBy(xpath = "//div[@class='collection-container']//input[@placeholder='Search our store']")
+    private  WebElement searchBox;
+
+    @FindBy(xpath = "//a[contains(text(),'Wilson D-Loop Keyring')]")
+    private WebElement keysItem;
+
+    @FindBy(xpath = "//*[@class='nav-bar']//ul//li/a[text()='Accesssories & Hats']")
+    private WebElement AcceandHats;
+
+    @FindBy(xpath = "//h1[text()='American Made Accessories']")
+    private WebElement titleOfAccesandHatsPage;
+
+    @FindBy(xpath = "//a[@title='layout.pagination.next_html']")
+    private WebElement ChangePage;
+
+    @FindBy(xpath = "//ul[@class='pagination']//li")
+    private List<WebElement> ulofChangePage;
+
+    @FindBy(xpath = "//*[@class='image-table']")
+    private List<WebElement> pictures;
 
 
 
-    public void logo(){
-        boolean logoDisplay = logoVerification.isDisplayed();
-        Assert.assertEquals(logoDisplay,true);
-        System.out.println("Logo displayed" + " " +logoDisplay);
-
+    public void changePage()  {
+        int numberOfPictures = 0;
+        int numbOfPages = ulofChangePage.size();
+        while (numbOfPages!=1){
+            numbOfPages--;
+            ChangePage.click();
+            numberOfPictures += pictures.size();
+        }
+        System.out.println(numberOfPictures);
     }
 
 
+    public void goToAccessoriesNHats(){
+        hoverOver(dropDownSearch,"dropDownSearch");
+        click(AcceandHats,"AcceandHats");
+    }
+
+    public String getTitlleOftitleOfAccesandHatsPage(){
+      String actualText =  getText(titleOfAccesandHatsPage,"titleOfAccesandHatsPage");
+      return actualText;
+    }
+
+
+    public void searchPage() {
+        searchPageElement.click();
+        searchBox.sendKeys("Wilson D-Loop Keyring",Keys.ENTER);
+    }
 
 
     public void dropDownSearchFunc(){
 
-//        Actions action = new Actions(driver);
-//        action.moveToElement(dropDownSearch).build().perform();
-//        hoverOverOnShopTheGoods.click();
         hoverOver(dropDownSearch,"dropDownSearch");
         click(dropDownSearch,"dropDownSearch");
 
     }
 
+    public boolean logoVerification(){
+        boolean logoDis =  isDisplayed(logoVerification,"logoVerification");
+         return logoDis;
+    }
 
 
     public void search(){
-
 
         searchBtn.click();
         searchInput.sendKeys("Shirts");
         searchInput.sendKeys(Keys.ENTER);
         clickOnShirt.click();
 
+    }
+
+    public String getTitleText(){
+     String actualText = getText(keysItem,"keysItem");
+     return  actualText;
+    }
+
+
+
+    public void slidePictutes(){
+        Actions actions = new Actions(driver);
+        actions.doubleClick(changeSlidePic).build().perform();
+    }
+
+    public void clickOnNewlyOnline(){
+        click(newlyOnline,"newlyOnline");
     }
 
 

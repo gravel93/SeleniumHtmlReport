@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automation Test]">
+  <parameter name="os" value="Mac"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browserVersion" value="62.0"/>
+  <parameter name="browserName" value="Chrome"/>
+  <parameter name="url" value="https://commondeer.com/"/>
+  <test name="Commander(failed)">
+    <classes>
+      <class name="com.commondeer.retailtest.HomePageTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="generateReport"/>
+          <include name="closeOut"/>
+          <include name="dropDownSearchFuncTest"/>
+          <include name="extentSetup"/>
+          <include name="initializationOfElements"/>
+          <include name="searchPageTest"/>
+          <include name="slidePictutesTest"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+          <include name="clickOnNewlyOnlineTest"/>
+          <include name="changePageTest"/>
+          <include name="afterEachTestMethod"/>
+          <include name="goToAccessoriesNHatsTest"/>
+        </methods>
+      </class> <!-- com.commondeer.retailtest.HomePageTest -->
+    </classes>
+  </test> <!-- Commander(failed) -->
+</suite> <!-- Failed suite [Automation Test] -->

@@ -2,53 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a29ce1-9b36-413b-9fd8-64966e5de2f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/generic/src/main/java/main/java/CaptureScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/main/java/ApplicationPageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/src/main/java/com/aplicationpagebase/ApplicationPageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/main/java/ForEveryClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/FootterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/FootterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/GoogleSheetForLogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/GoogleSheetForLogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/AllProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/AllProductPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/FootterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/FootterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/classes/com/commondeer/retail/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/Commander.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/Automation Test/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.HomePageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/Automation Test/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/test-classes/com/commondeer/retailtest/AllProductPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/test-classes/com/commondeer/retailtest/AllProductPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toExecute/target/test-classes/com/commondeer/retailtest/GoogleSheetForLogInTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/toExecute/target/test-classes/com/commondeer/retailtest/GoogleSheetForLogInTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/Extent-Report/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ SelectProductWith20Test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ changePageTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ dropDownSearchFuncTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ goToAccessoriesNHatsTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ invalidPromoCode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ searchPageTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ searchTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ selectItemToshoppingListTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ sortByTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ temp123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/ videoPlayTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/screenshots/selectItemToshoppingListTest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/FootterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/FootterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/AllProductPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/AllProductPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/src/test/resources/executable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/src/test/resources/executable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/classes/com/commondeer/retail/FootterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/classes/com/commondeer/retail/FootterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/classes/com/commondeer/retail/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/classes/com/commondeer/retail/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/Automation Test/Commander.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/Automation Test/Commander.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/Automation Test/Commander.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/Automation Test/Commander.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/junitreports/TEST-com.commondeer.retailtest.HomePageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/Automation Test/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/test-classes/com/commondeer/retailtest/AllProductPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/test-classes/com/commondeer/retailtest/AllProductPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/test-classes/com/commondeer/retailtest/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/test-classes/com/commondeer/retailtest/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonDeer/target/test-classes/executable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonDeer/target/test-classes/executable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/classes/main/java/BrowserDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/main/java/BrowserDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/generic/target/" />
     <ignored path="$PROJECT_DIR$/toExecute/target/" />
+    <ignored path="$PROJECT_DIR$/CommonDeer/target/" />
+    <ignored path="$PROJECT_DIR$/ecommerce/target/" />
+    <ignored path="$PROJECT_DIR$/jewelwebsite/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,19 +197,45 @@
     <session id="-510782126">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
+          <entry key="java" value="694" />
+          <entry key="xml" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="694" />
           <entry key="PLAIN_TEXT" value="13" />
+          <entry key="XML" value="143" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="html" value="7" />
+          <entry key="java" value="26" />
+          <entry key="png" value="5" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="HTML" value="7" />
+          <entry key="Image" value="5" />
+          <entry key="JAVA" value="26" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -214,58 +243,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/executable.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="176">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/AllProductPage.java">
+        <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/FootterPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/AllProductPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" selection-start-line="16" selection-end-line="21" />
+            <state relative-caret-position="1376">
+              <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/aplicationpagebase/ApplicationPageBase.java">
+        <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/resources/executable.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="193">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonDeer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/CreateAccountTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/AllProductPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/HomePageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/PageFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1872">
+              <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -291,15 +344,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/toExecute/src/main/java/Test2.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/main/java/Test1.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/test/java/LoginTest.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/test/java/CreateAccountTest.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/test/java/AllProductPageTest.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/test/java/ShoppingCardTest.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/main/java/ShoppingCard.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/test/java/CustomerInformationPageTest.java" />
-        <option value="$PROJECT_DIR$/toExecute/src/main/java/FotterPage.java" />
         <option value="$PROJECT_DIR$/toExecute/src/test/java/FooterPageTest.java" />
         <option value="$PROJECT_DIR$/toExecute/src/main/java/AllProductPage.java" />
         <option value="$PROJECT_DIR$/toExecute/src/main/java/FootterPage.java" />
@@ -311,7 +355,6 @@
         <option value="$PROJECT_DIR$/toExecute/src/main/java/CustomerInformationPage.java" />
         <option value="$PROJECT_DIR$/toExecute/src/main/resources/executable.xml" />
         <option value="$PROJECT_DIR$/generic/src/main/java/reporting/ExtentTestManager.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/generic/pom.xml" />
         <option value="$PROJECT_DIR$/generic/src/main/java/com/xlsx/api/MyDataReader.java" />
         <option value="$PROJECT_DIR$/toExecute/src/main/java/com/fetchexceldata/FetchExcelData.java" />
@@ -342,6 +385,16 @@
         <option value="$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/AllProductPage.java" />
         <option value="$PROJECT_DIR$/toExecute/src/test/resources/executable.xml" />
         <option value="$PROJECT_DIR$/toExecute/src/main/java/com/aplicationpagebase/ApplicationPageBase.java" />
+        <option value="$PROJECT_DIR$/CommonDeer/pom.xml" />
+        <option value="$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/HomePage.java" />
+        <option value="$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/FootterPage.java" />
+        <option value="$PROJECT_DIR$/generic/src/main/java/main/java/get.java" />
+        <option value="$PROJECT_DIR$/generic/src/main/java/main/java/CaptureScreenShot.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/AllProductPageTest.java" />
+        <option value="$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/HomePageTest.java" />
+        <option value="$PROJECT_DIR$/CommonDeer/src/test/resources/executable.xml" />
+        <option value="$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java" />
       </list>
     </option>
   </component>
@@ -364,9 +417,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
+    <option name="x" value="-135" />
+    <option name="y" value="165" />
+    <option name="width" value="1105" />
     <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -375,6 +428,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,17 +437,55 @@
               <item name="SeleniumHtmlReport" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumHtmlReport" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SeleniumHtmlReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumHtmlReport" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonDeer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumHtmlReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumHtmlReport" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumHtmlReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumHtmlReport" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumHtmlReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumHtmlReport" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumHtmlReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumHtmlReport" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumHtmlReport" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumHtmlReport" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/InteligProjects/gravel/toExecute/src/main/java/CreateAccount.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546564950412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550107472003" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/generic/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -410,11 +503,11 @@
       <recent name="main.java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\agaev\Desktop\SeleniumHtmlReport" />
       <recent name="C:\Users\agaev\Desktop\commondeer.com\toExecute\src\test\resources" />
       <recent name="C:\Users\agaev\Desktop\commondeer.com\toExecute\testData" />
       <recent name="C:\Users\agaev\Desktop\commondeer.com" />
       <recent name="C:\Users\agaev\Desktop\commondeer.com\toExecute" />
-      <recent name="C:\Users\agaev\Desktop\commondeer.com\generic\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,11 +522,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml">
-    <configuration name="C:/InteligProjects/gravel/toExecute/src/main/resources/executable.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml">
+    <configuration name="AllProductPageTest.sortByTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CommonDeer" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/toExecute/src/main/resources/executable.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.commondeer.retailtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.commondeer.retailtest" />
+      <option name="MAIN_CLASS_NAME" value="com.commondeer.retailtest.AllProductPageTest" />
+      <option name="METHOD_NAME" value="sortByTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -450,7 +551,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FootterPageTest.countLiTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <module name="CommonDeer" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CommonDeer/src/test/resources/executable.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/jewelwebsite/src/test/resources/executeconfig.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jewelwebsite" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/jewelwebsite/src/test/resources/executeconfig.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleSheetForLogInTest" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="CommonDeer" />
       <extension name="coverage">
         <pattern>
@@ -458,17 +589,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.commondeer.retailtest" />
-      <option name="MAIN_CLASS_NAME" value="com.commondeer.retailtest.FootterPageTest" />
-      <option name="METHOD_NAME" value="countLiTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.commondeer.retailtest.GoogleSheetForLogInTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.changePageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.searchTest2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CommonDeer" />
       <extension name="coverage">
         <pattern>
@@ -478,25 +615,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.commondeer.retailtest" />
       <option name="MAIN_CLASS_NAME" value="com.commondeer.retailtest.HomePageTest" />
-      <option name="METHOD_NAME" value="changePageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentMethodTest.testOatmen" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CommonDeer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.commondeer.retailtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.commondeer.retailtest" />
-      <option name="MAIN_CLASS_NAME" value="com.commondeer.retailtest.PaymentMethodTest" />
-      <option name="METHOD_NAME" value="testOatmen" />
+      <option name="METHOD_NAME" value="searchTest2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -505,19 +624,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/InteligProjects/gravel/toExecute/src/main/resources/executable.xml" />
+      <item itemvalue="TestNG.GoogleSheetForLogInTest" />
+      <item itemvalue="TestNG.C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" />
+      <item itemvalue="TestNG.AllProductPageTest.sortByTest" />
       <item itemvalue="TestNG.C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" />
-      <item itemvalue="TestNG.FootterPageTest.countLiTest" />
-      <item itemvalue="TestNG.PaymentMethodTest.testOatmen" />
-      <item itemvalue="TestNG.HomePageTest.changePageTest" />
+      <item itemvalue="TestNG.C:/Users/agaev/Desktop/SeleniumHtmlReport/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" />
+      <item itemvalue="TestNG.C:/Users/agaev/Desktop/SeleniumHtmlReport/jewelwebsite/src/test/resources/executeconfig.xml" />
+      <item itemvalue="TestNG.HomePageTest.searchTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest.searchTest2" />
+        <item itemvalue="TestNG.AllProductPageTest.sortByTest" />
+        <item itemvalue="TestNG.C:/Users/agaev/Desktop/SeleniumHtmlReport/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" />
+        <item itemvalue="TestNG.C:/Users/agaev/Desktop/SeleniumHtmlReport/jewelwebsite/src/test/resources/executeconfig.xml" />
         <item itemvalue="TestNG.C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" />
-        <item itemvalue="TestNG.HomePageTest.changePageTest" />
-        <item itemvalue="TestNG.PaymentMethodTest.testOatmen" />
-        <item itemvalue="TestNG.FootterPageTest.countLiTest" />
-        <item itemvalue="TestNG.C:/InteligProjects/gravel/toExecute/src/main/resources/executable.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -535,41 +656,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 49m 35s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 32m 09s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 52m 39s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 32m 53s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 53m 02s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 35m 11s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 54m 32s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 35m 53s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 55m 25s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 36m 29s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 55m 51s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 36m 40s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 56m 39s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 37m 03s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 57m 45s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 37m 53s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 15h 59m 56s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 38m 24s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__InteligProjects_gravel_toExecute_src_test_resources_executable_xml - 2019.01.02 at 17h 41m 50s.xml">
-      <configuration name="C:/InteligProjects/gravel/toExecute/src/test/resources/executable.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_agaev_Desktop_SeleniumHtmlReport_CommonDeer_src_test_resources_executable_xml - 2019.02.13 at 13h 38m 54s.xml">
+      <configuration name="C:/Users/agaev/Desktop/SeleniumHtmlReport/CommonDeer/src/test/resources/executable.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21409395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -578,7 +700,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28794327" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5900709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -630,76 +752,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generic/driver/chromedriver.exe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/driver/geckodriver.exe">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/src/test/java/HomePageTest.java" />
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/Test2.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/FindBy.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1712">
-          <caret line="107" column="12" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="944">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/fetchexceldata/FetchExcelData.java" />
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/com/xlsx/api/MyDataReader.java" />
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/PaymentMethodTest.java" />
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/PaymentMethod.java" />
-    <entry file="file://$PROJECT_DIR$/toExecute/screenshots/selectItemToshoppingListTest (12.29.2018-11" />
-    <entry file="file://$PROJECT_DIR$/toExecute/screenshots/selectItemToshoppingListTest (12.29.2018-12" />
-    <entry file="file://$PROJECT_DIR$/toExecute/screenshots/error.png" />
-    <entry file="file://$PROJECT_DIR$/toExecute/screenshots/selectItemToshoppingListTesterror.png" />
     <entry file="file://$PROJECT_DIR$/toExecute/screenshots/selectItemToshoppingListTest .png" />
     <entry file="file://$PROJECT_DIR$/toExecute/screenshots/selectItemToshoppingListTest/screenshootDate/ .png" />
-    <entry file="file://$PROJECT_DIR$/toExecute/screenshots/ selectItemToshoppingListTest.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/screenshots/ selectItemToshoppingListTest.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar!/com/google/api/client/repackaged/com/google/common/base/Preconditions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -721,7 +776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/secret.properties">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/resources/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
@@ -735,168 +790,253 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/client_secret.json">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/resources/client_secret.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="62" selection-start-column="62" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/screenshots/ dropDownSearchFuncTest.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="119" column="49" lean-forward="true" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CustomerInformationPage.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/CustomerInformationPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/CreateAccount.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/CreateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="30" column="33" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/Login.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/ShoppingCard.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/ShoppingCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/FootterPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/CustomerInformationPageTest.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/CustomerInformationPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/GoogleSheetForLogInTest.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/GoogleSheetForLogInTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="287" column="24" selection-start-line="287" selection-start-column="24" selection-end-line="287" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/ShoppingCardTest.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/ShoppingCardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/HomePageTest.java">
+    <entry file="file://$PROJECT_DIR$/jewelwebsite/src/test/resources/executeconfig.xml" />
+    <entry file="file://$PROJECT_DIR$/jewelwebsite/src/main/java/com/vasya/appPage.java" />
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/aplicationpagebase/ApplicationPageBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="64">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/CreateAccountTest.java">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/page/objects/SignUp.java" />
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/page/objects/ContactUsPage.java" />
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/java/test/pageobjects/HomePageTest.java" />
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/AllProductPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="625">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/resources/executable.xml">
+    <entry file="file://$PROJECT_DIR$/ecommerce/src/test/resources/EcommerceTestRunnerFile.xml" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="787" column="25" selection-start-line="787" selection-start-column="25" selection-end-line="787" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/FootterPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/FootterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/screenshots/ dropDownSearchFuncTest.png" />
+    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/aventstack/extentreports/3.0.7/extentreports-3.0.7.jar!/com/aventstack/extentreports/ExtentTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/AllProductPage.java">
+    <entry file="file://$PROJECT_DIR$/CommonDeer/Test-ScreenShots/countLiTest_2019_02_10 266.png" />
+    <entry file="file://$PROJECT_DIR$/CommonDeer/Test-ScreenShots/countLiTest_2019_02_10 634.png" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar!/com/relevantcodes/extentreports/ExtentTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="280">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/Test-ScreenShots/countLiTest.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/CaptureScreenShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/FootterPage.java">
+    <entry file="file://$PROJECT_DIR$/generic/src/main/java/reporting/ExtentTestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        <state relative-caret-position="80">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/test/java/com/commondeer/retailtest/AllProductPageTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" selection-start-line="16" selection-end-line="21" />
+        <state relative-caret-position="207">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/commondeer/retail/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/toExecute/src/main/java/com/aplicationpagebase/ApplicationPageBase.java">
+    <entry file="file://$PROJECT_DIR$/generic/src/main/java/main/java/BrowserDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="1376">
+          <caret line="112" column="53" selection-start-line="112" selection-start-column="53" selection-end-line="112" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/CreateAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/AllProductPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/java/com/commondeer/retailtest/HomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/PageFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/main/java/com/commondeer/retail/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommonDeer/src/test/resources/executable.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -952,7 +1092,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>generic</last-edited>
+          <last-edited>CommonDeer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

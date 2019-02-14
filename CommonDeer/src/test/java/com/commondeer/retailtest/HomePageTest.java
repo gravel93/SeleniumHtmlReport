@@ -12,15 +12,27 @@ public class HomePageTest extends HomePage {
 
     HomePage objHomePage = null;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void initializationOfElements() {
 
         objHomePage = PageFactory.initElements(driver, HomePage.class);
 
     }
 
+    @Test(groups = {"search"})
+    public void searchTest2() {
+        objHomePage.search2();
+    }
 
     @Test(priority = 0)
+    public void searchTest3() {
+        objHomePage.search3();
+    }
+
+
+
+
+    @Test
     public void changePageTest() {
         objHomePage.goToAccessoriesNHats();
         objHomePage.changePage();

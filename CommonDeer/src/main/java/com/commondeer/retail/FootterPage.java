@@ -11,7 +11,7 @@ public class FootterPage extends ApplicationPageBase {
     @FindBy(xpath = "//div[@class='grid']")
     private List<WebElement> li;
 
-    @FindBy(xpath = "//div[@class='grid']//following-sibling::li")
+    @FindBy(xpath = "//div[@class='grid']//-sibling::li")
     private List<WebElement> links;
 
 

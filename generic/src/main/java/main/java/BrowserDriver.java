@@ -1,6 +1,7 @@
 package main.java;
 
 import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import org.codehaus.plexus.util.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -28,12 +29,13 @@ import java.util.concurrent.TimeUnit;
 public class BrowserDriver {
 
     public static ExtentReports extent;
-    @BeforeSuite
+     public  static ExtentTest test;
+    @BeforeSuite(alwaysRun = true)
     public void extentSetup(ITestContext context) {
         ExtentManager.setOutputDirectory(context);
         extent = ExtentManager.getInstance();
     }
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void startExtent(Method method) {
         String className = method.getDeclaringClass().getSimpleName();
         String methodName = method.getName().toLowerCase();
@@ -46,7 +48,10 @@ public class BrowserDriver {
         t.printStackTrace(pw);
         return sw.toString();
     }
-    @AfterMethod
+
+
+
+    @AfterMethod(alwaysRun = true)
     public void afterEachTestMethod(ITestResult result) {
         ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
         ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
@@ -69,7 +74,8 @@ public class BrowserDriver {
         }
         driver.quit();
     }
-    @AfterSuite
+
+    @AfterSuite(alwaysRun = true)
     public void generateReport() {
         extent.close();
     }
@@ -83,10 +89,10 @@ public class BrowserDriver {
         public static WebDriver driver = null;
 
         @Parameters({/*"useCloudEnv","cloudEnvName", */"os", "os_version", "browserName", "browserVersion", "url"})
-        @BeforeMethod
+        @BeforeMethod(alwaysRun = true)
         public void setUp(/*@Optional("false") boolean useCloudEnv, @Optional("false") String cloudEnvName,*/
                 @Optional("windows") String os, @Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
-                String browserVersion, @Optional("https://www.google.com") String url) throws IOException {
+                String browserVersion, @Optional("https://www.google.com") String url) {
             getLocalDriver(browserName, os);
             driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS); // 20
             driver.manage().timeouts().pageLoadTimeout(45, TimeUnit.SECONDS); //35
@@ -115,28 +121,39 @@ public class BrowserDriver {
             return driver;
         }
 
-        @AfterMethod
-        public void closeOut() throws InterruptedException {
+        @AfterMethod(alwaysRun = true)
+        public void closeOut() {
 //            driver.manage().deleteAllCookies();
 //            driver.close();
             driver.quit();
         }
 
-    public static void captureScreenshot(WebDriver driver, String screenshotName){
+    public static String captureScreenshot(WebDriver driver, String screenshotName) {
 
-        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
-        Date date = new Date();
-        String screenshootDate = df.format(date);
+        TakesScreenshot screen = (TakesScreenshot) driver;
+        File src = screen.getScreenshotAs(OutputType.FILE);
 
-        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        String dest = System.getProperty("user.dir")+"//Test-ScreenShots//"+screenshotName+".png";
+
+        File target = new File(dest);
         try {
-            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/ "+screenshotName.concat(".png")));
-            System.out.println("Screenshot captured");
-        } catch (Exception e) {
-            System.out.println("Exception while taking screenshot "+e.getMessage());;
+            FileUtils.copyFile(src, target);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
+        return dest;
+
     }
+    private static final DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd SSS");
+
+    public static String generateFileName(ITestResult result){
+        Date date = new Date();
+        String fileName = result.getName()+ "_" + dateFormat.format(date);
+        return fileName;
+
+    }
+
 
     public static WebDriver  getDriver()
     {

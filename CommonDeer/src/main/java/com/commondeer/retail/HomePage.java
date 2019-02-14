@@ -124,6 +124,25 @@ public class HomePage extends ApplicationPageBase {
 
     }
 
+    public void search2(){
+
+        searchBtn.click();
+        searchInput.sendKeys("Shirts");
+        searchInput.sendKeys(Keys.ENTER);
+        clickOnShirt.click();
+
+    }
+
+
+    public void search3(){
+
+        searchBtn.click();
+        searchInput.sendKeys("Shirts");
+        searchInput.sendKeys(Keys.ENTER);
+        clickOnShirt.click();
+
+    }
+
     public String getTitleText(){
      String actualText = getText(keysItem,"keysItem");
      return  actualText;

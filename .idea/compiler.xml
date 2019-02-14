@@ -10,5 +10,9 @@
         <module name="generic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ecommerce" target="1.8" />
+      <module name="jewelwebsite" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

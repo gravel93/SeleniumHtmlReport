@@ -3,15 +3,14 @@
 
 <suite name="Automation Test" parallel="false">
 
-    <!--<parameter name="useCloudEnv" value="false"/>
-    <parameter name="cloudEnvName" value="browserstack"/>-->
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
 
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="Chrome"/>
     <parameter name="browserVersion" value="62.0"/>
     <parameter name="url" value="https://commondeer.com/"/>
-<!--fafa-->
 
     <test name = "Commander">
         <groups>
@@ -32,9 +31,6 @@
                <class name="com.commondeer.retailtest.GoogleSheetForLogInTest"/>-->
 
         </classes>
-
-
-
     </test>
 
 </suite>

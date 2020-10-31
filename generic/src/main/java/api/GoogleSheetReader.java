@@ -17,6 +17,7 @@ import com.google.api.services.sheets.v4.model.ValueRange;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -106,7 +107,6 @@ public class GoogleSheetReader {
             List<Object> row = getSpreadSheetRecords.get(i);
             array[i] = row.toArray(new String[row.size()]);
         }
-
         return array;
     }
     /**
@@ -118,7 +118,12 @@ public class GoogleSheetReader {
 
         List<List<Object>> getSpreadSheetRecords = getSpreadSheetRecords(spreadsheetId, range);
 
-        String[][] array = getSpreadSheetRecords.stream().map(u -> u.toArray(new String[0])).toArray(String[][]::new);
+        List<String[]> list = new ArrayList<>();
+        for (List<Object> u : getSpreadSheetRecords) {
+            String[] strings = u.toArray(new String[0]);
+            list.add(strings);
+        }
+        String[][] array = (String[][]) list.toArray(new Object[0]);
 
         return array;
     }

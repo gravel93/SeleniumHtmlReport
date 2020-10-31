@@ -15,7 +15,7 @@ import java.io.File;
 
 public class CustomerInformationPageTest extends CustomerInformationPage {
 
-    CustomerInformationPage objofCustomeInfoPage = null;
+    private CustomerInformationPage objofCustomeInfoPage = null;
 
 
     @BeforeMethod

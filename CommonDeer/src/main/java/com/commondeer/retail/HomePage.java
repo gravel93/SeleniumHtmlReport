@@ -6,10 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
 import java.util.List;
-
-import static javafx.beans.binding.Bindings.select;
 
 public class HomePage extends ApplicationPageBase {
 
@@ -71,6 +70,9 @@ public class HomePage extends ApplicationPageBase {
     @FindBy(xpath = "//*[@class='image-table']")
     private List<WebElement> pictures;
 
+    @FindBy(xpath = "//div[@class='box product']")
+    List<WebElement> shirts;
+
 
 
     public void changePage()  {
@@ -124,14 +126,17 @@ public class HomePage extends ApplicationPageBase {
 
     }
 
+    @FindBy(xpath = "//p[@class='announcement__text']")
+    private WebElement promoText;
+
     public void search2(){
-
-        searchBtn.click();
-        searchInput.sendKeys("Shirts");
-        searchInput.sendKeys(Keys.ENTER);
-        clickOnShirt.click();
-
+        System.out.println("validate title");
+        String expectedMessage = "OFFERING";
+        Assert.assertTrue(promoText.getText().contains(expectedMessage));
     }
+
+
+
 
 
     public void search3(){
